@@ -1,0 +1,15 @@
+{
+  "mongodb": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "hello_safmar",
+    "collection": "tenders"
+  },
+  "rabbitmq": {
+    "host": "localhost",
+    "port": 5672,
+    "username": "guest",
+    "password": "guest",
+    "queue": "tender-upsert"
+  }
+}
